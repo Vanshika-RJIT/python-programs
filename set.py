@@ -1,0 +1,14 @@
+set={1,2,3,4}
+set1={2,3,4,5,6,7}
+print(set-set1)
+print(set.difference(set1))
+print(set1-set)
+print(set1.difference(set))
+print(set|set1)
+print(set.union(set1))
+print(set&set1)
+print(set.intersection(set1))
+print(set^set1)
+print(set.symmetric_difference(set1))
+result=set.clear()
+print(set)

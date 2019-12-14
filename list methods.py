@@ -1,0 +1,20 @@
+#nested list 
+list1=[1,2,3,[4,5,6,7]]
+list2=list1.copy()
+print(list1[3])
+print(list1[3][2])
+print(list1)
+list2.clear()
+print(list2)
+list1.insert(2,4)
+print(list1)
+list1[3:3]=[4,4,56]
+print(list1)
+list1.clear()
+print(list1)
+l1=['p','y','t','h','o','n']
+print(l1[:-4])
+odd=[1,3,45,5]
+print(odd+[2,3,4,5])
+print(odd*3)
+print(['a','b']*3)
