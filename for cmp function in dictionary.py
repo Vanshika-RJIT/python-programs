@@ -1,0 +1,9 @@
+a=1
+b=1
+print(cmp(a,b))
+a=0
+b=1
+print(cmp(a,b))
+a=1
+b=0
+print(cmp(a,b))

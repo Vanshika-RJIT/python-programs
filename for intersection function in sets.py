@@ -1,0 +1,10 @@
+m={1,2,34,4}
+n={3,4,5,2}
+r={4,6,34}
+print(m&n)
+print(m&n&r)
+print(m.intersection(n))
+print(m.intersection(n,r))
+print(m.intersection())
+m.add(10)
+print(m.intersection())
